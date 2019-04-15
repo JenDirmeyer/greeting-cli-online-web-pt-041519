@@ -25,7 +25,7 @@ describe './lib/greeting.rb' do
 
       output = capture_puts{ greeting(" Sally\t   ") }
 
-      expect(output).to include("Hello Sally\t    . It's nice to meet you.")
+      expect(output).to include("Hello Sally. It's nice to meet you.")
     end
   end
 end
